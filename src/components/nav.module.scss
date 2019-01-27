@@ -1,0 +1,32 @@
+@import "../styles/global.scss";
+
+// links
+.list {
+  position: fixed;
+  right: 0;
+  bottom: 0.5rem;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem;
+  width: 100%;
+  max-width: 375px;
+  @include min-md {
+    max-width: 500px;
+    bottom: 20px;
+  }
+}
+.item {
+  list-style: none;
+  font-size: 1.2rem;
+  @include min-md {
+    font-size: 1.6rem;
+  }
+  a {
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

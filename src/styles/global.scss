@@ -1,0 +1,44 @@
+// settings
+$color-bg-black: #242424;
+$color-font-white: #fff;
+$font-family: 'Source Code Pro', serif;
+$font-size: 62.5%;
+$line-height: 1.4;
+
+$bp-md: 737px;
+$bp-lg: 769px;
+
+// mixin
+
+// media query
+@mixin min-md {
+  @media screen and (min-width: $bp-md) {
+    @content;
+  }
+}
+@mixin min-lg {
+  @media screen and (min-width: $bp-lg) {
+    @content;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import "~sanitize.css/sanitize.css";
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  background-color: $color-bg-black;
+  color: $color-font-white;
+  font-family: $font-family;
+  -webkit-text-size-adjust: 100%;
+  line-height: $line-height;
+  word-wrap: break-word;
+}
+
+html,
+body {
+  height: 100%;
+}
