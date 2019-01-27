@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://goofy-noyce-546e9d.netlify.com/* https://otsukayuhi.app/:splat 301!
