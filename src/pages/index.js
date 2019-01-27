@@ -22,6 +22,7 @@ export default () => (
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="format-detection" content="telephone=no" />
       <link rel="canonical" href={config.url} />
+      <html lang="ja" />
     </Helmet>
     <h1 className={styles.title}>
       <span className={styles.text}>otsukayuhi.app</span>

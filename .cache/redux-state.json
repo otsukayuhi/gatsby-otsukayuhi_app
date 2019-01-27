@@ -658,12 +658,14 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-01-27T08:42:17.216Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-27T09:42:38.334Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ade35d45fbae9840d8bed4998cef4954",
+        "contentDigest": "a9255f67388482f8fe983b3a1d62ae36",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
