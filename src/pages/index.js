@@ -5,7 +5,7 @@ import styles from "./index.module.scss"
 
 const config = {
   title: "大塚 雄飛｜Otsuka Yuhi",
-  desc: "フロントエンドエンジニアです。 HTML、CSS、JavaScriptの設計・実装をしています。",
+  desc: "フロントエンドエンジニアです。HTML、CSS、JavaScriptの設計・実装をしています。",
   url: "https://otsukayuhi.app/",
 }
 
