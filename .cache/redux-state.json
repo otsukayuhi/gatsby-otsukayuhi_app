@@ -395,11 +395,99 @@
         "owner": "internal-data-bridge"
       }
     },
+    "8cb2d315-68f7-59e2-a9bd-30fce76f4c67": {
+      "resolve": "/Users/otsuka/Desktop/_mydata/gatsby-otsukayuhi_app/node_modules/gatsby-plugin-gtag",
+      "id": "8cb2d315-68f7-59e2-a9bd-30fce76f4c67",
+      "name": "gatsby-plugin-gtag",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-42438339-6",
+        "head": true,
+        "anonymize": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/otsuka/Desktop/_mydata/gatsby-otsukayuhi_app/node_modules/gatsby-plugin-gtag",
+      "packageJson": {
+        "name": "gatsby-plugin-gtag",
+        "description": "Gatsby plugin to add Google Analytics gtag.js (replacement for analytics.js) to a site. Includes Outbound Links.",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google-analytics",
+          "gtag",
+          "outbound-link"
+        ],
+        "author": {
+          "name": "Andrey Salomatin",
+          "email": "andrey@flpvsk.com"
+        },
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-core",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-preset-stage-3",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^7.1.3"
+          },
+          {
+            "name": "prettier",
+            "version": "1.16.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "dependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "24446ae4fa85b8d7965788b7f8635380",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/otsuka/Desktop/_mydata/gatsby-otsukayuhi_app",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "39a102f45ed60df65880f568b1ec614b",
+      "version": "8a97abae9f75788eefff6b84de8af4d5",
       "pluginOptions": {
         "plugins": []
       },
@@ -416,6 +504,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-plugin-gtag",
+            "version": "^1.0.6"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -454,7 +546,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a0207c59319c2a0ed8ca14f997af8b72",
+        "contentDigest": "bc1b8aa6a83112315fa52e10c5363035",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -566,14 +658,12 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-27T08:35:07.963Z",
+      "buildTime": "2019-01-27T08:42:17.216Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "79df0d223247c9e13e16977e23519069",
+        "contentDigest": "ade35d45fbae9840d8bed4998cef4954",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -601,7 +691,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8f470a2fc5eafbb6f8dff6f0f1f2e2c1"
+    "PLUGINS_HASH": "c82dc3968c718c9846e0cf4cb9090b63"
   },
   "componentDataDependencies": {
     "nodes": {},

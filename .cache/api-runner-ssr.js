@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/Users/otsuka/Desktop/_mydata/gatsby-otsukayuhi_app/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/otsuka/Desktop/_mydata/gatsby-otsukayuhi_app/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-42438339-6","head":true,"anonymize":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
