@@ -568,12 +568,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-27T08:30:34.159Z",
+      "buildTime": "2019-01-27T08:35:07.963Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f15a3d657247542c3b38ae14f3ccb5f5",
+        "contentDigest": "79df0d223247c9e13e16977e23519069",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

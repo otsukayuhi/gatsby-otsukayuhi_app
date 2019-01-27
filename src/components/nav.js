@@ -1,8 +1,6 @@
 import React from "react"
 import styles from "./nav.module.scss"
 
-console.log(styles)
-
 export default () => (
   <nav>
     <ul className={styles.list}>
