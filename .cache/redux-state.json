@@ -660,12 +660,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-27T10:08:49.303Z",
+      "buildTime": "2019-01-28T14:51:49.831Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "170a1b763f6bac40ac601abd60285146",
+        "contentDigest": "8ee31949b22ea09aab57172404c5445b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

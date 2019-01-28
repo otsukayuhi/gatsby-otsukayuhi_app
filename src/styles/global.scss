@@ -42,3 +42,13 @@ html,
 body {
   height: 100%;
 }
+
+// gatsby
+body {
+  > div {
+    height: 100%;
+    > div {
+      height: 100%;
+    }
+  }
+}
