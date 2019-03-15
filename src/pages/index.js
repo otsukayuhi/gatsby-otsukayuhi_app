@@ -24,6 +24,10 @@ export default () => (
       <link rel="canonical" href={config.url} />
       <html lang="ja" />
     </Helmet>
+    <div className={styles.line1}></div>
+    <div className={styles.line2}></div>
+    <div className={styles.line3}></div>
+    <div className={styles.line4}></div>
     <h1 className={styles.title}>
       <span className={styles.text}>otsukayuhi.app</span>
     </h1>
