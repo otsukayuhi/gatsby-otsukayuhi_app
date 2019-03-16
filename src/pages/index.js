@@ -9,6 +9,20 @@ const config = {
   url: "https://otsukayuhi.app/",
 }
 
+const initLines = () => {
+  const lineLength = 4
+  const lines = []
+  for (let i = 0; i < lineLength; i++) {
+    lines.push(
+      <div
+        className={`${styles.line} ${styles[`line${i + 1}`]}`}
+        key={i}
+      ></div>
+    )
+  }
+  return lines
+}
+
 export default () => (
   <div className={styles.container}>
     <Helmet>
@@ -24,10 +38,7 @@ export default () => (
       <link rel="canonical" href={config.url} />
       <html lang="ja" />
     </Helmet>
-    <div className={styles.line1}></div>
-    <div className={styles.line2}></div>
-    <div className={styles.line3}></div>
-    <div className={styles.line4}></div>
+    {initLines()}
     <h1 className={styles.title}>
       <span className={styles.text}>otsukayuhi.app</span>
     </h1>
